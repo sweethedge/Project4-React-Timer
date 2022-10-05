@@ -1,8 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import MyTick from './mycom/MyTick';
 import MyTime from './mycom/MyTime';
-import MyImage from './mycom/MyImage';
 
 function App() {
   return (
@@ -11,6 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <MyTime />
+      <p></p>
     </div>
   );
 }
